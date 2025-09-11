@@ -80,7 +80,6 @@ O objetivo é implementar um **agente de Service Desk** capaz de:
    pip install langchain langchain-google-genai google-generativeai \
                langchain_community langchain-text-splitters faiss-cpu pymupdf \
                langgraph pydantic
-````
 
 2. Configure sua API Key do Gemini:
 
@@ -107,5 +106,9 @@ O objetivo é implementar um **agente de Service Desk** capaz de:
 * O uso da **Gemini API** pode gerar custos dependendo do volume de requisições.
 * Ao rodar localmente, considere **persistir o índice FAISS** em disco para evitar reprocessamento.
 * Não versione chaves de API (`.env` deve estar no `.gitignore`).
+
+📌 **Link de referência do guia oficial da imersão**:  
+[Guia de Mergulho - Imersão Agentes de IA - Alura](https://alura.tv/guiademergulhoAgentesdeIA)
+
 
 
